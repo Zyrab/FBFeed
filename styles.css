@@ -70,13 +70,19 @@ nav p {
 .hero img{
     width: 100%;
 }
-/* Styles for About Us, Shop, and Contact sections */
-/* .about, .shop, .contact {
-    background-color: brown;
-    color: white;
-    padding: 20px;
-} */
 
+/* about us styles */
+#about-us{
+    margin: 5vw 0 5vw;
+    padding:0 5vw 0 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+#about-us img {
+    width: 40%;
+}
 /* Footer styles */
 footer {
     background-color: #4a2d1f;
